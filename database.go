@@ -49,5 +49,4 @@ func (d Database) AttachTable(table Table) {
 	}
 
 	defer rows.Close()
-
 }
